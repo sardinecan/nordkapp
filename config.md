@@ -1,8 +1,8 @@
 <!--
 Add here global page variables to use throughout your website.
 -->
-@def prepath = "nordkapp"
 +++
+prepath = "nordkapp"
 author = "Septimia Zenobia"
 mintoclevel = 2
 
