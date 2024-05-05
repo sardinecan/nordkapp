@@ -1,0 +1,64 @@
+:root{
+  --mainColor: #111;
+  --subColor: rgb(0, 32, 91);
+  --altColor: rgb(255, 255, 255);
+  --pimpColor: rgb(186, 12, 47);
+
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+
+}
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url("../assets/media/header.JPG");
+  height: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerCaption {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.headerCaption span {
+  background-color: var(--altColor);
+  opacity: 0.70;
+  color: var(--mainColor);
+  padding: 0.5em;
+  font-size: 2.5em;
+  letter-spacing: 0.2em;
+  border-radius: 0.2em;
+}
+
+.headerCoordinates {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 90%;
+  width: 100%;
+  text-align: right;
+}
+
+.headerCoordinates span {
+  background-color: var(--altColor);
+  opacity: 0.70;
+  color: var(--mainColor);
+  padding: 0.5em;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  border-radius: 0.2em;
+  margin-right: 1em;
+}
