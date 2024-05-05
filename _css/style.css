@@ -58,7 +58,6 @@ header {
   color: var(--mainColor);
   padding: 0.5em;
   font-size: 0.6em;
-  letter-spacing: 0.2em;
   border-radius: 0.2em;
   margin-right: 1em;
 }
